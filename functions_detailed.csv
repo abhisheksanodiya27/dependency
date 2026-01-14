@@ -1,0 +1,156 @@
+file,full_path,type,name,start_line,end_line,parameters,calls,details
+AdminPanel.Designer.cs,AdminPanel.Designer.cs,function,Dispose,14,22,disposing,"components.Dispose, base.Dispose",Calls 2 functions
+AdminPanel.Designer.cs,AdminPanel.Designer.cs,function,InitializeComponent,28,238,,,Calls 0 functions
+AdminPanel.Designer.cs,AdminPanel.Designer.cs,class,AdminPanel,3,238,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+AdminPanel.cs,AdminPanel.cs,function,AdminPanel,11,15,,InitializeComponent,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,AdminPanel_Load,18,22,"sender, e",,Calls 0 functions
+AdminPanel.cs,AdminPanel.cs,function,reportToolStripMenuItem_Click,25,30,"sender, e",PayForm.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,addEmployeeToolStripMenuItem1_Click,33,38,"sender, e",Enroll.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,editEmployeeToolStripMenuItem1_Click,41,46,"sender, e",Edit_emp.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,deleteEmployeeToolStripMenuItem1_Click,49,54,"sender, e",Edit_emp.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,checkAttendanceToolStripMenuItem1_Click,57,62,"sender, e",Rep_Attend.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,markAttendanceToolStripMenuItem1_Click,65,70,"sender, e",Attendance.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,reportToolStripMenuItem_Click_1,73,78,"sender, e",PayForm.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,function,logoutToolStripMenuItem_Click,81,87,"sender, e","Close, Login.Show",Calls 2 functions
+AdminPanel.cs,AdminPanel.cs,function,leaveRequestToolStripMenuItem_Click,90,95,"sender, e",leave.Show,Calls 1 functions
+AdminPanel.cs,AdminPanel.cs,class,AdminPanel,9,98,,"AdminPanel, AdminPanel_Load, reportToolStripMenuItem_Click, addEmployeeToolStripMenuItem1_Click, editEmployeeToolStripMenuItem1_Click, deleteEmployeeToolStripMenuItem1_Click, checkAttendanceToolStripMenuItem1_Click, markAttendanceToolStripMenuItem1_Click, reportToolStripMenuItem_Click_1, logoutToolStripMenuItem_Click, leaveRequestToolStripMenuItem_Click","Methods: [AdminPanel, AdminPanel_Load, reportToolStripMenuItem_Click, addEmployeeToolStripMenuItem1_Click, editEmployeeToolStripMenuItem1_Click, deleteEmployeeToolStripMenuItem1_Click, checkAttendanceToolStripMenuItem1_Click, markAttendanceToolStripMenuItem1_Click, reportToolStripMenuItem_Click_1, logoutToolStripMenuItem_Click, leaveRequestToolStripMenuItem_Click]; Inherits: [Form]"
+Attendance.Designer.cs,Attendance.Designer.cs,function,Dispose,14,22,disposing,Dispose,Calls 1 functions
+Attendance.Designer.cs,Attendance.Designer.cs,function,InitializeComponent,28,160,,"BeginInit, SuspendLayout, EndInit, ResumeLayout, PerformLayout",Calls 5 functions
+Attendance.Designer.cs,Attendance.Designer.cs,class,Attendance,3,162,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Attendance.cs,Attendance.cs,function,Attendance,34,61,,"InitializeComponent, File.ReadAllText, Convert.ToInt16, MessageBox.Show",Calls 4 functions
+Attendance.cs,Attendance.cs,function,Attendance_Load,63,87,"sender, e","MessageBox.Show, new Capture, grabber.QueryFrame, Application.Idle",Calls 4 functions
+Attendance.cs,Attendance.cs,function,button1_Click,89,92,"sender, e",,Calls 0 functions
+Attendance.cs,Attendance.cs,function,FrameGrabber,94,204,"sender, e","grabber.QueryFrame, currentFrame.Resize, currentFrame.Convert, gray.DetectHaarCascade, currentFrame.Copy, currentFrame.Draw, new MCvTermCriteria, new EigenObjectRecognizer, recognizer.Recognize, currentFrame.Draw, NamePersons.Add, imageBoxFrameGrabber.Image",Calls 12 functions
+Attendance.cs,Attendance.cs,function,button3_Click,206,211,"sender, e","new Enroll, frm.ShowDialog",Calls 2 functions
+Attendance.cs,Attendance.cs,function,toolStrip1_ItemClicked,213,217,"sender, e",,Calls 0 functions
+Attendance.cs,Attendance.cs,function,Date_Click,219,223,"sender, e",,Calls 0 functions
+Attendance.cs,Attendance.cs,function,timer1_Tick,225,231,"sender, e",DateTime.Now.ToString,Calls 1 functions
+Attendance.cs,Attendance.cs,function,label4_Click,233,237,"sender, e",,Calls 0 functions
+Attendance.cs,Attendance.cs,function,label4_TextChanged,239,243,"sender, e",,Calls 0 functions
+Attendance.cs,Attendance.cs,class,Attendance,16,245,,"Attendance, Attendance_Load, button1_Click, FrameGrabber, button3_Click, toolStrip1_ItemClicked, Date_Click, timer1_Tick, label4_Click, label4_TextChanged","Methods: [Attendance, Attendance_Load, button1_Click, FrameGrabber, button3_Click, toolStrip1_ItemClicked, Date_Click, timer1_Tick, label4_Click, label4_TextChanged]; Inherits: [Form]"
+DatabaseConnection.cs,DatabaseConnection.cs,function,MyDataSet,26,40,,"Open, Fill, Close",Calls 3 functions
+DatabaseConnection.cs,DatabaseConnection.cs,function,UpdateDatabase,42,47,ds,Update,Calls 1 functions
+DatabaseConnection.cs,DatabaseConnection.cs,class,DatabaseConnection,6,49,,"MyDataSet, UpdateDatabase","Methods: [MyDataSet, UpdateDatabase]; Inherits: []"
+Edit_emp.Designer.cs,Edit_emp.Designer.cs,function,Dispose,14,22,disposing,Dispose,Calls 1 functions
+Edit_emp.Designer.cs,Edit_emp.Designer.cs,function,InitializeComponent,28,122,,"button1_Click, Edit_emp_Load",Calls 2 functions
+Edit_emp.Designer.cs,Edit_emp.Designer.cs,class,Edit_emp,3,126,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Edit_emp.cs,Edit_emp.cs,function,Edit_emp,27,42,,InitializeComponent,Calls 1 functions
+Edit_emp.cs,Edit_emp.cs,function,button1_Click,44,61,"sender, e",System.Data.SqlClient.SqlDataAdapter.Fill,Calls 1 functions
+Edit_emp.cs,Edit_emp.cs,function,Edit_emp_Load,92,113,"sender, e",DatabaseConnection.GetConnection,Calls 1 functions
+Edit_emp.cs,Edit_emp.cs,class,Edit_emp,11,115,,"Edit_emp, button1_Click, Edit_emp_Load","Methods: [Edit_emp, button1_Click, Edit_emp_Load]; Inherits: [Form]"
+Edit_emp2.Designer.cs,Edit_emp2.Designer.cs,function,Dispose,14,22,disposing,Dispose,Calls 1 functions
+Edit_emp2.Designer.cs,Edit_emp2.Designer.cs,function,InitializeComponent,27,144,,"BeginInit, SuspendLayout, EndInit, ResumeLayout, PerformLayout",Calls 5 functions
+Edit_emp2.Designer.cs,Edit_emp2.Designer.cs,class,Edit_emp2,3,147,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Edit_emp2.cs,Edit_emp2.cs,function,Edit_emp2,11,15,,InitializeComponent,Calls 1 functions
+Edit_emp2.cs,Edit_emp2.cs,class,Edit_emp2,9,16,,Edit_emp2,Methods: [Edit_emp2]; Inherits: [Form]
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,GenerateLabels,52,58,size,,Calls 0 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,CalcEigenObjects,142,179,"trainingImages, termCrit, eigenImages, avg","Array.ConvertAll, CvInvoke.cvCalcEigenObjects",Calls 2 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,EigenDecomposite,184,191,"src, eigenImages, avg","CvInvoke.cvEigenDecomposite, Array.ConvertAll",Calls 2 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,EigenProjection,196,205,eigenValue,"CvInvoke.cvEigenProjection, Array.ConvertAll",Calls 2 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,GetEigenDistances,210,218,image,"EigenDecomposite, Array.ConvertAll, CvInvoke.cvNorm",Calls 3 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,FindMostSimilarObject,223,239,"image, index, eigenDistance, label",GetEigenDistances,Calls 1 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,function,Recognize,244,253,image,FindMostSimilarObject,Calls 1 functions
+EigenObjectRecognizer.cs,EigenObjectRecognizer.cs,class,EigenObjectRecognizer,8,255,,"EigenObjectRecognizer, GenerateLabels, CalcEigenObjects, EigenDecomposite, EigenProjection, GetEigenDistances, FindMostSimilarObject, Recognize","Methods: [EigenObjectRecognizer, GenerateLabels, CalcEigenObjects, EigenDecomposite, EigenProjection, GetEigenDistances, FindMostSimilarObject, Recognize]; Inherits: []"
+Enroll.Designer.cs,Enroll.Designer.cs,function,Dispose,13,21,disposing,Dispose,Calls 1 functions
+Enroll.Designer.cs,Enroll.Designer.cs,function,InitializeComponent,26,246,,"BeginInit, SuspendLayout, EndInit, ResumeLayout, PerformLayout",Calls 5 functions
+Enroll.Designer.cs,Enroll.Designer.cs,class,Enroll,3,246,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Enroll.cs,Enroll.cs,function,Enroll,47,78,,"InitializeComponent, File.ReadAllText, Convert.ToInt16, File.ReadAllText, MessageBox.Show",Calls 5 functions
+Enroll.cs,Enroll.cs,function,Enroll_Load,80,95,"sender, e","new HaarCascade, new Capture, grabber.QueryFrame, Application.Idle, MessageBox.Show",Calls 5 functions
+Enroll.cs,Enroll.cs,function,AddBtn_Click,103,122,"sender, e","grabber.QueryGrayFrame, gray.DetectHaarCascade, currentFrame.Copy, imageBox1.Image",Calls 4 functions
+Enroll.cs,Enroll.cs,function,SaveBtn_Click,125,210,"sender, e","grabber.QueryGrayFrame, gray.DetectHaarCascade, currentFrame.Copy, result.Resize, trainingImages.Add, labels.Add, File.WriteAllText, File.AppendAllText, MessageBox.Show",Calls 9 functions
+Enroll.cs,Enroll.cs,function,FrameGrabber,213,298,"sender, e","NamePersons.Add, grabber.QueryFrame, currentFrame.Convert, gray.DetectHaarCascade, currentFrame.Copy, currentFrame.Draw, new MCvTermCriteria, new EigenObjectRecognizer, recognizer.Recognize, NamePersons.Add, imageBoxFrameGrabber.Image",Calls 11 functions
+Enroll.cs,Enroll.cs,function,label6_Click,301,314,"sender, e",,Calls 0 functions
+Enroll.cs,Enroll.cs,function,comboBox1_SelectedIndexChanged,316,343,"sender, e","new System.Data.SqlClient.SqlConnection, conn.Open, new System.Data.SqlClient.SqlCommand, sc.ExecuteReader, new DataTable, dt.Load, conn.Close",Calls 7 functions
+Enroll.cs,Enroll.cs,function,comboBox2_SelectedIndexChanged,345,362,"sender, e","new System.Data.SqlClient.SqlConnection, conn.Open, new System.Data.SqlClient.SqlCommand, sc.ExecuteReader, new DataTable, dt.Load, conn.Close",Calls 7 functions
+Enroll.cs,Enroll.cs,function,timer1_Tick,364,370,"sender, e",DateTime.Now.ToString,Calls 1 functions
+Enroll.cs,Enroll.cs,function,timer1_Tick_1,372,378,"sender, e",DateTime.Now.ToString,Calls 1 functions
+Enroll.cs,Enroll.cs,function,toolStripLabel6_Click,380,384,"sender, e",,Calls 0 functions
+Enroll.cs,Enroll.cs,class,Enroll,12,387,,"Enroll, Enroll_Load, AddBtn_Click, SaveBtn_Click, FrameGrabber, label6_Click, comboBox1_SelectedIndexChanged, comboBox2_SelectedIndexChanged, timer1_Tick, timer1_Tick_1, toolStripLabel6_Click","Methods: [Enroll, Enroll_Load, AddBtn_Click, SaveBtn_Click, FrameGrabber, label6_Click, comboBox1_SelectedIndexChanged, comboBox2_SelectedIndexChanged, timer1_Tick, timer1_Tick_1, toolStripLabel6_Click]; Inherits: [Form]"
+Form2.Designer.cs,Form2.Designer.cs,function,Dispose,15,23,disposing,Dispose,Calls 1 functions
+Form2.Designer.cs,Form2.Designer.cs,function,InitializeComponent,28,98,,"SuspendLayout, ResumeLayout, PerformLayout",Calls 3 functions
+Form2.Designer.cs,Form2.Designer.cs,class,Form2,3,100,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Form2.cs,Form2.cs,function,Form2,10,13,,InitializeComponent,Calls 1 functions
+Form2.cs,Form2.cs,function,Form2,15,25,bs,"this, this.textBox1.DataBindings.Add, this.textBox2.DataBindings.Add, this.textBox3.DataBindings.Add, this.textBox4.DataBindings.Add, this.textBox5.DataBindings.Add, this.textBox6.DataBindings.Add",Calls 7 functions
+Form2.cs,Form2.cs,function,Form2_FormClosed,27,30,"sender, e",bs.EndEdit,Calls 1 functions
+Form2.cs,Form2.cs,class,Form2,8,31,,"Form2, Form2, Form2_FormClosed","Methods: [Form2, Form2, Form2_FormClosed]; Inherits: [Form]"
+Login.Designer.cs,Login.Designer.cs,function,Dispose,15,23,disposing,"components.Dispose, base.Dispose",Calls 2 functions
+Login.Designer.cs,Login.Designer.cs,function,InitializeComponent,29,108,,"this.SuspendLayout, this.ResumeLayout, this.PerformLayout",Calls 3 functions
+Login.Designer.cs,Login.Designer.cs,class,Login,3,110,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Login.cs,Login.cs,function,Login,11,15,,InitializeComponent,Calls 1 functions
+Login.cs,Login.cs,function,button1_Click,17,39,"sender, e","Show, MessageBox.Show, Focus",Calls 3 functions
+Login.cs,Login.cs,class,Login,8,41,,"Login, button1_Click","Methods: [Login, button1_Click]; Inherits: [Form]"
+Panel.Designer.cs,Panel.Designer.cs,function,Dispose,13,21,disposing,"components.Dispose, base.Dispose",Calls 2 functions
+Panel.Designer.cs,Panel.Designer.cs,function,InitializeComponent,27,451,,"this.menuStrip1.SuspendLayout, this.statusStrip1.SuspendLayout, this.imageBoxFrameGrabber.BeginInit, this.groupBox1.SuspendLayout, this.groupBox2.SuspendLayout, this.groupBox3.SuspendLayout, this.groupBox4.SuspendLayout, this.SuspendLayout, this.menuStrip1.ResumeLayout, this.menuStrip1.PerformLayout, this.statusStrip1.ResumeLayout, this.statusStrip1.PerformLayout, this.imageBoxFrameGrabber.EndInit, this.groupBox1.ResumeLayout, this.groupBox2.ResumeLayout, this.groupBox3.ResumeLayout, this.groupBox4.ResumeLayout, this.ResumeLayout, this.PerformLayout",Calls 19 functions
+Panel.Designer.cs,Panel.Designer.cs,class,Panel,3,454,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: [Form]"
+Panel.cs,Panel.cs,function,Panel,34,66,,"InitializeComponent, File.ReadAllText, Convert.ToInt16, MessageBox.Show",Calls 4 functions
+Panel.cs,Panel.cs,function,groupBox1_Enter,68,71,"sender, e",,Calls 0 functions
+Panel.cs,Panel.cs,function,timer1_Tick,73,80,"sender, e",,Calls 0 functions
+Panel.cs,Panel.cs,function,FrameGrabber,82,186,"sender, e","grabber.QueryFrame, currentFrame.Resize, currentFrame.Convert, gray.DetectHaarCascade, currentFrame.Copy, currentFrame.Draw, trainingImages.ToArray, labels.ToArray, EigenObjectRecognizer, recognizer.Recognize, currentFrame.Draw, imageBoxFrameGrabber.Image",Calls 12 functions
+Panel.cs,Panel.cs,function,Panel_Load,188,215,"sender, e","MessageBox.Show, new HaarCascade, new Capture, grabber.QueryFrame, Application.Idle",Calls 5 functions
+Panel.cs,Panel.cs,function,employeeToolStripMenuItem_Click,217,222,"sender, e","new Enroll, enr.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,editEmployeeToolStripMenuItem_Click,224,229,"sender, e","new Edit_emp, editemp.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,deleteEmployeeToolStripMenuItem1_Click,231,236,"sender, e","new Edit_emp, editemp.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,leaveRequestToolStripMenuItem_Click,238,243,"sender, e","new leave, leave.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,attendanceToolStripMenuItem2_Click,245,250,"sender, e","new Rep_Attend, repattend.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,payslipToolStripMenuItem_Click,252,257,"sender, e","new PayForm, payform.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,markToolStripMenuItem_Click,259,264,"sender, e","new Attendance, attend.Show",Calls 2 functions
+Panel.cs,Panel.cs,function,logoutToolStripMenuItem_Click,266,272,"sender, e","Close, new Login, log.Show",Calls 3 functions
+Panel.cs,Panel.cs,class,Panel,18,273,,"Panel, groupBox1_Enter, timer1_Tick, FrameGrabber, Panel_Load, employeeToolStripMenuItem_Click, editEmployeeToolStripMenuItem_Click, deleteEmployeeToolStripMenuItem1_Click, leaveRequestToolStripMenuItem_Click, attendanceToolStripMenuItem2_Click, payslipToolStripMenuItem_Click, markToolStripMenuItem_Click, logoutToolStripMenuItem_Click","Methods: [Panel, groupBox1_Enter, timer1_Tick, FrameGrabber, Panel_Load, employeeToolStripMenuItem_Click, editEmployeeToolStripMenuItem_Click, deleteEmployeeToolStripMenuItem1_Click, leaveRequestToolStripMenuItem_Click, attendanceToolStripMenuItem2_Click, payslipToolStripMenuItem_Click, markToolStripMenuItem_Click, logoutToolStripMenuItem_Click]; Inherits: [Form]"
+PayForm.Designer.cs,PayForm.Designer.cs,function,Dispose,15,22,disposing,"components.Dispose, base.Dispose",Calls 2 functions
+PayForm.Designer.cs,PayForm.Designer.cs,function,InitializeComponent,27,444,,"comboBox1_SelectedIndexChanged, comboBox2_SelectedIndexChanged, comboBox6_SelectedIndexChanged, comboBox5_SelectedIndexChanged, comboBox4_SelectedIndexChanged, comboBox3_SelectedIndexChanged, comboBox12_SelectedIndexChanged, button1_Click, PayForm_Load",Calls 9 functions
+PayForm.Designer.cs,PayForm.Designer.cs,class,PayForm,3,446,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+PayForm.cs,PayForm.cs,function,PayForm,11,15,,InitializeComponent,Calls 1 functions
+PayForm.cs,PayForm.cs,function,PayForm_Load,17,21,"sender, e",,Calls 0 functions
+PayForm.cs,PayForm.cs,function,comboBox1_SelectedIndexChanged,23,56,"sender, e","System.Data.SqlClient.SqlConnection.Open, System.Data.SqlClient.SqlCommand.ExecuteReader, DataTable.Load, System.Data.SqlClient.SqlConnection.Close",Calls 4 functions
+PayForm.cs,PayForm.cs,function,comboBox2_SelectedIndexChanged,58,148,"sender, e","System.Data.SqlClient.SqlConnection.Open, System.Data.SqlClient.SqlCommand.ExecuteReader, DataTable.Load, System.Data.SqlClient.SqlConnection.Close, System.Data.SqlClient.SqlCommand.ExecuteScalar, Convert.ToInt32",Calls 6 functions
+PayForm.cs,PayForm.cs,function,comboBox3_SelectedIndexChanged,150,154,"sender, e",,Calls 0 functions
+PayForm.cs,PayForm.cs,function,comboBox4_SelectedIndexChanged,156,160,"sender, e",,Calls 0 functions
+PayForm.cs,PayForm.cs,function,comboBox5_SelectedIndexChanged,162,166,"sender, e",,Calls 0 functions
+PayForm.cs,PayForm.cs,function,comboBox6_SelectedIndexChanged,168,172,"sender, e",,Calls 0 functions
+PayForm.cs,PayForm.cs,function,comboBox12_SelectedIndexChanged,174,221,"sender, e","System.Data.SqlClient.SqlConnection.Open, System.Data.SqlClient.SqlCommand.ExecuteScalar, System.Data.SqlClient.SqlConnection.Close, Convert.ToInt32",Calls 4 functions
+PayForm.cs,PayForm.cs,function,button1_Click,223,227,"sender, e",PrintPreviewDialog.ShowDialog,Calls 1 functions
+PayForm.cs,PayForm.cs,class,PayForm,9,228,,"PayForm, PayForm_Load, comboBox1_SelectedIndexChanged, comboBox2_SelectedIndexChanged, comboBox3_SelectedIndexChanged, comboBox4_SelectedIndexChanged, comboBox5_SelectedIndexChanged, comboBox6_SelectedIndexChanged, comboBox12_SelectedIndexChanged, button1_Click","Methods: [PayForm, PayForm_Load, comboBox1_SelectedIndexChanged, comboBox2_SelectedIndexChanged, comboBox3_SelectedIndexChanged, comboBox4_SelectedIndexChanged, comboBox5_SelectedIndexChanged, comboBox6_SelectedIndexChanged, comboBox12_SelectedIndexChanged, button1_Click]; Inherits: [Form]"
+Program.cs,Program.cs,function,Main,12,19,,"Application.EnableVisualStyles, Application.SetCompatibleTextRenderingDefault, Application.Run",Calls 3 functions
+Program.cs,Program.cs,class,Program,7,20,,Main,Methods: [Main]; Inherits: []
+Resources.Designer.cs,Properties\Resources.Designer.cs,class,Resources,14,63,,"Resources, ResourceManager, Culture, FinalPro","Methods: [Resources, ResourceManager, Culture, FinalPro]; Inherits: []"
+Settings.Designer.cs,Properties\Settings.Designer.cs,class,Settings,12,79,,"get_Default, get_FinalProConnectionString, get_SQL, get_sql1, get_sql2, get_sql3, set_sql3, get_Database1ConnectionString","Methods: [get_Default, get_FinalProConnectionString, get_SQL, get_sql1, get_sql2, get_sql3, set_sql3, get_Database1ConnectionString]; Inherits: [System.Configuration.ApplicationSettingsBase]"
+Rep_Attend.Designer.cs,Rep_Attend.Designer.cs,function,Dispose,14,22,disposing,"components.Dispose, base.Dispose",Calls 2 functions
+Rep_Attend.Designer.cs,Rep_Attend.Designer.cs,function,InitializeComponent,28,167,,"this.button1.Click += new System.EventHandler(this.button1_Click), this.Load += new System.EventHandler(this.Rep_Attend_Load)",Calls 2 functions
+Rep_Attend.Designer.cs,Rep_Attend.Designer.cs,class,Rep_Attend,3,169,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: []"
+Rep_Attend.cs,Rep_Attend.cs,function,Rep_Attend,19,22,,InitializeComponent,Calls 1 functions
+Rep_Attend.cs,Rep_Attend.cs,function,button1_Click,24,81,"sender, e",,Calls 0 functions
+Rep_Attend.cs,Rep_Attend.cs,function,Rep_Attend_Load,83,104,"sender, e",MessageBox.Show,Calls 1 functions
+Rep_Attend.cs,Rep_Attend.cs,class,Rep_Attend,11,105,,"Rep_Attend, button1_Click, Rep_Attend_Load","Methods: [Rep_Attend, button1_Click, Rep_Attend_Load]; Inherits: [Form]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,function,ds_finalpro,43,54,,"BeginInit, InitClass, EndInit",Calls 3 functions
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,function,InitVars,318,321,,,Calls 0 functions
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,function,InitVars,323,343,bool initTable,,Calls 0 functions
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,function,InitClass,345,372,,,Calls 0 functions
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,function,SchemaChanged,671,674,"object sender, CollectionChangeEventArgs e",InitVars,Calls 1 functions
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,function,GetTypedDataSetSchema,676,719,XmlSchemaSet xs,GetSchemaSerializable,Calls 1 functions
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,ds_finalpro,20,720,,"ds_finalpro, InitVars, InitClass, SchemaChanged, GetTypedDataSetSchema","Methods: [ds_finalpro, InitVars, InitClass, SchemaChanged, GetTypedDataSetSchema]; Inherits: [DataSet]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AttendDataTable,726,1070,,"tbl_AttendDataTable, Addtbl_AttendRow, FindByAttend_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_AttendRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_AttendRow, GetTypedTableSchema","Methods: [tbl_AttendDataTable, Addtbl_AttendRow, FindByAttend_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_AttendRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_AttendRow, GetTypedTableSchema]; Inherits: [TypedTableBase<tbl_AttendRow>]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_deptDataTable,1078,1422,,"tbl_deptDataTable, Addtbl_deptRow, FindByDept_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_deptRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_deptRow, GetTypedTableSchema","Methods: [tbl_deptDataTable, Addtbl_deptRow, FindByDept_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_deptRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_deptRow, GetTypedTableSchema]; Inherits: [TypedTableBase<tbl_deptRow>]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EmpDataTable,1430,1874,,"tbl_EmpDataTable, Addtbl_EmpRow, FindByEmp_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_EmpRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_EmpRow, GetTypedTableSchema","Methods: [tbl_EmpDataTable, Addtbl_EmpRow, FindByEmp_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_EmpRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_EmpRow, GetTypedTableSchema]; Inherits: [TypedTableBase<tbl_EmpRow>]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AdminDataTable,1882,2226,,"tbl_AdminDataTable, Addtbl_AdminRow, FindByAdmin_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_AdminRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_AdminRow, GetTypedTableSchema","Methods: [tbl_AdminDataTable, Addtbl_AdminRow, FindByAdmin_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_AdminRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_AdminRow, GetTypedTableSchema]; Inherits: [TypedTableBase<tbl_AdminRow>]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EnrollDataTable,2234,2680,,"tbl_EnrollDataTable, Addtbl_EnrollRow, FindByEnroll_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_EnrollRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_EnrollRow, GetTypedTableSchema","Methods: [tbl_EnrollDataTable, Addtbl_EnrollRow, FindByEnroll_Id, Clone, CreateInstance, InitVars, InitClass, Newtbl_EnrollRow, NewRowFromBuilder, GetRowType, OnRowChanged, OnRowChanging, OnRowDeleted, OnRowDeleting, Removetbl_EnrollRow, GetTypedTableSchema]; Inherits: [TypedTableBase<tbl_EnrollRow>]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AttendRow,2688,2746,,,Methods: []; Inherits: [DataRow]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_deptRow,2754,2808,,,Methods: []; Inherits: [DataRow]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EmpRow,2816,2924,,,Methods: []; Inherits: [DataRow]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AdminRow,2932,2986,,,Methods: []; Inherits: [DataRow]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EnrollRow,2994,3088,,,Methods: []; Inherits: [DataRow]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AttendRowChangeEvent,3096,3124,,,Methods: []; Inherits: [EventArgs]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_deptRowChangeEvent,3132,3160,,,Methods: []; Inherits: [EventArgs]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EmpRowChangeEvent,3168,3196,,,Methods: []; Inherits: [EventArgs]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AdminRowChangeEvent,3204,3232,,,Methods: []; Inherits: [EventArgs]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EnrollRowChangeEvent,3240,3268,,,Methods: []; Inherits: [EventArgs]
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AttendTableAdapter,3276,3730,,"tbl_AttendTableAdapter, Fill, GetData, Update, Delete, Insert, Update","Methods: [tbl_AttendTableAdapter, Fill, GetData, Update, Delete, Insert, Update]; Inherits: [Component]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_deptTableAdapter,3738,4176,,"tbl_deptTableAdapter, Fill, GetData, Update, Delete, Insert, Update","Methods: [tbl_deptTableAdapter, Fill, GetData, Update, Delete, Insert, Update]; Inherits: [Component]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EmpTableAdapter,4184,4622,,"tbl_EmpTableAdapter, Fill, GetData, Update, Delete, Insert, Update","Methods: [tbl_EmpTableAdapter, Fill, GetData, Update, Delete, Insert, Update]; Inherits: [Component]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_AdminTableAdapter,4630,5068,,"tbl_AdminTableAdapter, Fill, GetData, Update, Delete, Insert, Update","Methods: [tbl_AdminTableAdapter, Fill, GetData, Update, Delete, Insert, Update]; Inherits: [Component]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,tbl_EnrollTableAdapter,5076,5514,,"tbl_EnrollTableAdapter, Fill, GetData, Update, Delete, Insert, Update","Methods: [tbl_EnrollTableAdapter, Fill, GetData, Update, Delete, Insert, Update]; Inherits: [Component]"
+ds_finalpro.Designer.cs,Resources\ds_finalpro.Designer.cs,class,TableAdapterManager,5522,6268,,"UpdateAll, SortSelfReferenceRows, MatchTableAdapterConnection","Methods: [UpdateAll, SortSelfReferenceRows, MatchTableAdapterConnection]; Inherits: [Component]"
+leave.Designer.cs,leave.Designer.cs,function,Dispose,15,23,disposing,"components.Dispose, base.Dispose",Calls 2 functions
+leave.Designer.cs,leave.Designer.cs,function,InitializeComponent,28,203,,"groupBox1.SuspendLayout, SuspendLayout, groupBox1.ResumeLayout, ResumeLayout, PerformLayout",Calls 5 functions
+leave.Designer.cs,leave.Designer.cs,class,leave,3,206,,"Dispose, InitializeComponent","Methods: [Dispose, InitializeComponent]; Inherits: [System.Windows.Forms.Form]"
+leave.cs,leave.cs,function,leave,10,14,,InitializeComponent,Calls 1 functions
+leave.cs,leave.cs,class,leave,8,15,,leave,Methods: [leave]; Inherits: [Form]
